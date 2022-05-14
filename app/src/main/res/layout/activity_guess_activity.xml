@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:gravity="center"
+    android:paddingRight="16dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="165dp" />
+
+    <TextView
+        android:id="@+id/ticket"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="@string/total_tickets_0" />
+
+    <ImageView
+        android:id="@+id/entityImage"
+        android:layout_width="143dp"
+        android:layout_height="304dp"
+        android:contentDescription="@string/image_of_entity"
+
+        android:src="@drawable/bigchungusmock_fc829ca1_4b33_4bc1_b184_6b8079cc97ed_800x" />
+
+    <TextView
+        android:id="@+id/entityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/guessinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/mm_dd_yyyy"
+        android:gravity="center"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnGuess"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:text="@string/submit_guess" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="18dp"
+                android:layout_height="50dp"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/change_entity" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

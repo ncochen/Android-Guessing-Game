@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GuessMaster</string>
+    <string name="image_of_entity">Image of Entity</string>
+    <string name="_03_04_2020">03/04/2020</string>
+    <string name="submit_guess">Submit Guess</string>
+    <string name="change_entity">CHANGE ENTITY</string>
+    <string name="mm_dd_yyyy">MM/DD/YYYY</string>
+    <string name="total_tickets_0">Total Tickets: 0</string>
+</resources>
